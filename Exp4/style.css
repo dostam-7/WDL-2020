@@ -1,0 +1,340 @@
+* {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* That was for removing the borders code starts below */
+.wrapper{
+	height: 100%;
+	width: 100%;
+	background-color: teal;
+}
+header{
+	height: 130px;
+	width: 100%;
+	background-color: black;
+}
+section{
+	height: 490px;
+	width: 100%;
+	background-color: lightblue;
+}
+footer{
+	height: 130px;
+	width: 100%;
+	background-color: black;
+}
+li a{
+	color: white;
+	text-decoration: none;
+
+}
+
+nav{
+	float: right;
+	word-spacing: 10px;
+	padding: 20px;
+}
+nav li{
+	display: inline-block;
+	line-height: 80px;
+}
+section .sec_img{
+    height: 550px;
+	background-image: url("images/library.jfif");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.box{
+	height: 300px;
+	width: 400px;
+	background-color: #191817;
+	margin: 60px auto;
+	opacity: 0.6;
+	color: white;
+}
+
+/* student login */
+
+
+form .login{
+    margin: auto 90px;
+}
+
+input{
+    height: 35px;
+    width: 300px;
+    background-color: white;
+}
+button{
+    background-color: fuchsia;
+    color: white;
+}
+
+/* student registration */
+
+.reg-img{
+    height: 1160px;
+    background-image: url("images/back.jfif");
+    margin-top: 0px;
+}
+
+.box2{
+    height: 950px;
+    width: 450px;
+    background-color: lightgreen;
+    margin: 70px auto;
+    opacity: .6;
+    color: black;
+    padding: 20px;
+}
+
+/*SEM 5 says hello*/
+.hello {
+ font-size: 100%; 
+ background: #99ccff;
+}
+
+h1, h2, h3, h4, h5, h6, p { 
+    margin: 0px; 
+    padding: 20px; 
+}
+
+a {
+ color: black; 
+ text-decoration: none; 
+ font-weight: bold; 
+}
+
+a:hover {
+ text-decoration: underline;
+}
+
+footer {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+/*Card*/
+
+/*.card {
+  /* Add shadows to create the "card" effect */
+  /*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);*/
+  /*transition: 0.3s;*/
+/*}*/
+
+/* On mouse-over, add a deeper shadow */
+/*.card:hover {
+*/ /* box-shadow: 10px 16px 16px 10px rgba(0,0,0,0.2);
+}*/
+
+/*/*Flip card*/
+
+.hello {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+/*wrappper*/
+/*.wrappper{
+  height: 100%;
+  width: 100%;
+  /*background-color: teal;*/
+/*}*/
+/*header{
+  height: 130px;
+  width: 100%;
+  /*background-color: black;*/
+/*}*/
+/*section{
+  height: 490px;
+  width: 100%;
+  background-color: lightblue;
+}
+footer{
+  height: 130px;
+  width: 100%;
+  /*background-color: black;*/
+/*}*/
+/*li a{
+  color: white;
+  text-decoration: none;
+
+}
+*/
+/*nav{
+  float: right;
+  word-spacing: 10px;
+  padding: 20px;
+}
+nav li{
+  display: inline-block;
+  line-height: 80px;
+}*//*/
+
+/*Aboutus*/
+/*
+.cardss {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}*/

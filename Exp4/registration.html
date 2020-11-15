@@ -1,0 +1,290 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <title>Students registration</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body bgcolor="lightgreen">
+<header>
+  <style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  background-color: black;
+}
+</style>
+<script src="registration.js">
+  function formvalidation()
+{
+var Username = document.registration.Username;
+var First_Name = document.registration.First_Name;
+var Last_Name = document.registration.Last_Name;
+var Mobile_Number = document.registration.Mobile_Number;
+var Password = document.registration.Password;
+var Confirm_Password = document.registration.Confirm_Password; 
+
+if(alphanumeric(Username))
+{
+if(allLetter(First_Name))
+{
+if(allLetter(Last_Name))
+{
+if(allnumeric(Mobile_Number))
+{ 
+if(Password_validation(Password,7,12))
+{
+if(Passwprd_validation(Confirm_Password,7,12))
+{ 
+}
+} 
+}
+}
+}
+}
+return false;
+
+  function alphanumeric(Username)
+{ 
+var letters = /^[0-9a-zA-Z]+$/;
+if(Username.value.match(letters))
+{
+return true;
+}
+else
+{
+alert('Username must have alphanumeric characters only');
+Username.focus();
+return false;
+}
+}
+  function allLetter(First_Name)
+{ 
+var letters = /^[A-Za-z]+$/;
+if(First_Name.value.match(letters))
+{
+return true;
+}
+else
+{
+alert('Username must have alphabet characters only');
+First_Name.focus();
+return false;
+}
+}
+function allLetter(Last_Name)
+{ 
+var letters = /^[A-Za-z]+$/;
+if(Last_Name.value.match(letters))
+{
+return true;
+}
+else
+{
+alert('Username must have alphabet characters only');
+Last_Name.focus();
+return false;
+}
+}
+function allnumeric(Mobile_Number)
+{ 
+var numbers = /^[0-9]+$/;
+if(Mobile_Number.value.match(numbers))
+{
+return true;
+}
+else
+{
+alert('Mobile_Number code must have numeric characters only');
+Mobile_Number.focus();
+return false;
+}
+}
+  function alphanumeric(Password)
+{ 
+var letters = /^[0-9a-zA-Z]+$/;
+if(Password.value.match(letters))
+{
+return true;
+}
+else
+{
+alert('Password must have alphanumeric characters only');
+Password.focus();
+return false;
+}
+}
+  function alphanumeric(Confirm_Password)
+{ 
+var letters = /^[0-9a-zA-Z]+$/;
+if(Confirm_Password.value.match(letters))
+{
+return true;
+}
+else
+{
+alert('Password must have alphanumeric characters only');
+Confirm_Password.focus();
+return false;
+}
+}
+else
+{
+alert('Form Succesfully Submitted');
+window.location = "books.html";
+return true;
+}
+}
+
+</script>
+  <nav>
+        <ul>
+          <li><a href="slogin.html">LOGIN</a></li> (comment))
+          <li><a href="contact.html">FEEDBACK</a></li>
+          <li><a href="abt_us.html">ABOUT-US</a></li>
+          <li><a href="books.html">BOOKS</a></li>
+           <li><a href="index.html">HOME</a></li>
+        </ul>
+      </nav>
+</header>
+
+<section>
+  <div class="reg-img">
+      <br>
+      <div class="box2" align="center">
+      <h1 style="text-align: center; color: black; font-size: 35px; font-family: Ariel;">Library Management System</h1><br><br> 
+       <h1 style="text-align: center; color: black;  font-size: 35px; font-family: Ariel;">User Registration Form</h1><br><br>
+      <hr>
+      <img src="images/reg.png">
+      <hr>
+      <marquee>COME LEARN WITH US!!</marquee>
+      <hr>
+      <h1 align="center">Registration form</h1>
+    <form name="Registration" action="" method="post">
+      <br>
+     <div class="registration">
+     <input type="text" name="Username" placeholder="Username" required=""><br><br>
+     <input type="text" name="First_Name" placeholder="First Name" required=""><br><br>
+     <input type="text" name="Last_Name" placeholder="Last Name" required=""><br><br>
+     <input type="text" name="Mobile_Number" placeholder="Number" required=""><br><br>
+     <input type="Password" name="Password" placeholder="Password" required=""><br><br>
+     <input type="Password" name="Confirm_Password" placeholder="Confirm Password" required=""><br><br>
+     <input type="Submit" style="background-color: yellow; color: red" name="Register" value="Submit"/></div>
+    </form>  
+    <p align="right">    
+      <a href="login.html" style="color: blue">Already SignedUp?</a>
+    </p>
+
+  </div>
+</div>
+
+</section>
+
+
+</body>
+</html>
+
+ -->
+
+ <!DOCTYPE html>
+<html>
+<head>
+<title>Registration Form Using jQuery - Demo Preview</title>
+<meta name="robots" content="noindex, nofollow">
+<!-- Include CSS File Here -->
+<link rel="stylesheet">
+<style type="text/css">
+  /* Below line is used for online Google font */
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+h2{
+text-align: center;
+font-size: 24px;
+}
+hr{
+margin-bottom: 30px;
+}
+div.container{
+width: 960px;
+height: 610px;
+margin:50px auto;
+font-family: 'Droid Serif', serif;
+position:relative;
+}
+div.main{
+width: 320px;
+float:left;
+padding: 10px 55px 40px;
+background-color: rgba(187, 255, 184, 0.65);
+border: 15px solid white;
+box-shadow: 0 0 10px;
+border-radius: 2px;
+font-size: 13px;
+}
+input[type=text],[type=password] {
+width: 97.7%;
+height: 34px;
+padding-left: 5px;
+margin-bottom: 20px;
+margin-top: 8px;
+box-shadow: 0 0 5px #00F5FF;
+border: 2px solid #00F5FF;
+color: #4f4f4f;
+font-size: 16px;
+}
+label{
+color: #464646;
+text-shadow: 0 1px 0 #fff;
+font-size: 14px;
+font-weight: bold;
+}
+#register {
+font-size: 20px;
+margin-top: 15px;
+background: linear-gradient(#22abe9 5%, #36caf0 100%);
+border: 1px solid #0F799E;
+padding: 7px 35px;
+color: white;
+text-shadow: 0px 1px 0px #13506D;
+font-weight: bold;
+border-radius: 2px;
+cursor: pointer;
+width: 100%;
+}
+#register:hover{
+background: linear-gradient(#36caf0 5%, #22abe9 100%);
+}
+</style>
+<!-- Include JS File Here -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/registration.js"></script>
+</head>
+<body>
+<div class="container">
+<div class="main">
+<form class="form" method="post" action="#">
+<h2>Create Registration Form Using jQuery</h2>
+<label>Name :</label>
+<input type="text" name="dname" id="name">
+<label>Email :</label>
+<input type="text" name="demail" id="email">
+<label>Password :</label>
+<input type="password" name="password" id="password">
+<label>Confirm Password :</label>
+<input type="password" name="cpassword" id="cpassword">
+<input type="button" name="register" id="register" value="Register">
+</form>
+</div>
+</body>
+</html>
