@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml-stylesheet type="text/xsl" href="lms/Homee.xsl"?> -->
+<?xml-stylesheet type="text/xsl" href="http://localhost/lms/Homee.xsl"?>
+    <para>LIBRARY MANAGEMENT SYSTEM is an online library system from which each of us can learn from anywhere in the World. It was one of the big step towards tackeling the current padamic situation. Due to current padamic situation most of the collage libraries just became a warehouse of books, as the students can't visit to Library and physically borrow books and learn from it. so for such condition we have decided to develop a system from which each student can learn from any book by just typing its name in the custom search bar. Apart from this we will also provide some additional information to students which will make the learning process easier.</para>
+   
+  <!-- <sect1> -->
+  <para>
+    <title>Our Values</title>
+    <para/>
+    <sect2><title>MISSION: Our mission is to create an online library system from which each of us can learn from anywhere in the World.</title>MISSION:<para/></sect2>
+    <sect2><title>VISION: Our vision is provide best quality book anytime.</title>VISION:<sect1 id="services"><title><note><remark>Container (Services Section)</remark></note>SERVICES</title><title>What we offer</title><para/><title><olink targetdocent="fnd_bk.php">Search a Book</olink></title><title><olink targetdocent="./question%20paper.php">Download Model answer Paper</olink></title><title><olink targetdocent="newsdisp.php">Today's News</olink></title><title><olink targetdocent="bk_category.php">Find Book By Category</olink></title><para/></sect1></sect2>
+  </sect1>
+  <sect1>
+    <title><note><remark>Container (Services Section)</remark></note>SERVICES</title>
+    <note>
+      <remark>Container (Services Section)</remark>
+    </note>
+    <sect2>
+      <title>What we offer</title>
+      <para/>
+    </sect2>
+    <sect2>
+      <title>
+        <olink targetdocent="fnd_bk.php">Search a Book</olink>
+      </title>
+      <olink targetdocent="fnd_bk.php">Search a Book</olink>
+    </sect2>
+    <sect2>
+      <title>
+        <olink targetdocent="./question%20paper.php">Download Model answer Paper</olink>
+      </title>
+      <olink targetdocent="./question%20paper.php">Download Model answer Paper</olink>
+    </sect2>
+    <sect2>
+      <title>
+        <olink targetdocent="newsdisp.php">Today's News</olink>
+      </title>
+      <olink targetdocent="newsdisp.php">Today's News</olink>
+    </sect2>
+    <sect2>
+      <title>
+        <olink targetdocent="bk_category.php">Find Book By Category</olink>
+      </title>
+      <olink targetdocent="bk_category.php">Find Book By Category</olink>
+      <para/>
+      <sect1 id="portfolio">
+        <title><note><remark>Container (Portfolio Section)</remark></note><note><remark>Container (Portfolio Section)</remark></note>Our Team</title>
+        <para/>
+        <para><inlinegraphic fileref="#dostam.jpg" width="2.3228inch" depth="3.5417inch"/> </para>
+        <para>Dostam Ahmed</para>
+        <para>Web-Development</para>
+        <para/>
+        <para><inlinegraphic fileref="#obaid.jpg" width="1.7709inch" depth="0.3929inch"/> </para>
+        <para>Obaid Sayyed</para>
+        <para>Database-designer</para>
+        <para><inlinegraphic fileref="#1601537306189.jpg" width="2.6043inch" depth="0.3929inch"/> </para>
+        <para>Arbaaz Nakhwa</para>
+        <para>Database-designer</para>
+        <para><inlinegraphic fileref="#group1.png" width="1.5102inch" depth="0.3929inch"/> </para>
+        <para>Saalem Khan</para>
+        <para>Web Development</para>
+        <para/>
+      </sect1>
+    </sect2>
+  </sect1>
+  <sect1>
+    <title><note><remark>Container (Portfolio Section)</remark></note><note><remark>Container (Portfolio Section)</remark></note>Our Team</title>
+    <note>
+      <remark>Container (Portfolio Section)</remark>
+    </note>
+    <note>
+      <remark>Container (Portfolio Section)</remark>
+    </note>
+    <para/>
+    <para><inlinegraphic fileref="#dostam.jpg" width="2.3228inch" depth="3.5417inch"/> </para>
+    <para>Dostam Ahmed</para>
+    <para>Web-Development</para>
+    <para/>
+    <para><inlinegraphic fileref="#obaid.jpg" width="1.7709inch" depth="0.3929inch"/> </para>
+    <para>Obaid Sayyed</para>
+    <para>Database-designer</para>
+    <para><inlinegraphic fileref="#1601537306189.jpg" width="2.6043inch" depth="0.3929inch"/> </para>
+    <para>Arbaaz Nakhwa</para>
+    <para>Database-designer</para>
+    <para><inlinegraphic fileref="#group1.png" width="1.5102inch" depth="0.3929inch"/> </para>
+    <para>Saalem Khan</para>
+    <para>Web Development</para>
+    <para/>
+    <sect1 id="pricing">
+      <title><note><remark>Container (Pricing Section)</remark></note>Learn New Booming Language</title>
+      <title>Choose a payment plan that works for you</title>
+      <para>Artificial Intellegence</para>
+      <para><inlinegraphic fileref="#ai.jpg" width="3.0209inch" depth="2.7083inch"/> </para>
+      <para><ulink url="https://www.coursera.org/professional-certificates/applied-artifical-intelligence-ibm-watson-ai">Sign Up</ulink> </para>
+      <para>Machine Learning</para>
+      <para><inlinegraphic fileref="#21770.jpg" width="3.0209inch" depth="2.7083inch"/> </para>
+      <para><ulink url="https://www.coursera.org/learn/machine-learning">Sign Up</ulink> </para>
+      <para>Graphics Design</para>
+      <para><inlinegraphic fileref="#graphic-design-studio-workspace_67155-1341.jpg" width="3.0209inch" depth="2.7083inch"/> </para>
+      <para><ulink url="https://www.coursera.org/specializations/graphic-design">Sign Up</ulink> </para>
+    </sect1>
+  </sect1>
+  <sect1>
+    <title><note><remark>Container (Pricing Section)</remark></note>Learn New Booming Language</title>
+    <note>
+      <remark>Container (Pricing Section)</remark>
+    </note>
+    <sect2>
+      <title>Choose a payment plan that works for you</title>
+      <para>Artificial Intellegence</para>
+      <para><inlinegraphic fileref="#ai.jpg" width="3.0209inch" depth="2.7083inch"/> </para>
+      <para><ulink url="https://www.coursera.org/professional-certificates/applied-artifical-intelligence-ibm-watson-ai">Sign Up</ulink> </para>
+      <para>Machine Learning</para>
+      <para><inlinegraphic fileref="#21770.jpg" width="3.0209inch" depth="2.7083inch"/> </para>
+      <para><ulink url="https://www.coursera.org/learn/machine-learning">Sign Up</ulink> </para>
+      <para>Graphics Design</para>
+      <para><inlinegraphic fileref="#graphic-design-studio-workspace_67155-1341.jpg" width="3.0209inch" depth="2.7083inch"/> </para>
+      <para><ulink url="https://www.coursera.org/specializations/graphic-design">Sign Up</ulink> </para>
+      <sect1 id="contact">
+        <title><note><remark>Container (Contact Section)</remark></note>CONTACT</title>
+        <para>Contact us and we'll get back to you within 24 hours.</para>
+        <para>Chicago, US</para>
+        <para>+00 1515151515</para>
+        <para>dkdahm@gmail.com</para>
+        <para><anchor id="name"/> </para>
+        <para><anchor id="email"/> </para>
+        <para>
+          <anchor id="comments"/>
+        </para>
+        <para>Send </para>
+      </sect1>
+    </sect2>
+  </sect1>
+  <sect1>
+    <title><note><remark>Container (Contact Section)</remark></note>CONTACT</title>
+    <note>
+      <remark>Container (Contact Section)</remark>
+    </note>
+    <para>Contact us and we'll get back to you within 24 hours.</para>
+    <para>Chicago, US</para>
+    <para>+00 1515151515</para>
+    <para>dkdahm@gmail.com</para>
+    <para><anchor id="name"/> </para>
+    <para><anchor id="email"/> </para>
+  </sect1>
