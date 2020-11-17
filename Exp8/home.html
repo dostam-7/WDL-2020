@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html lang="en">
+<head>
+<title>Library Management System</title>
+<link rel = "icon" href ="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRm2VveDlUqzUbrNooutHi8NTVDvR-gYw30UQ&usqp=CAU" type = "image/x-icon">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+<!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+    
+<body>  
+<div class="main">
+<div class="navb">
+  <h2><a class="active" href="home.html">Home</a>
+  <a href="login.php">Login</a></h2>
+</div>
+  <h2><a class="regg" href="reg.php">Not a member? Register here</a></h2>
+
+<center><h1>Library Management System</h1>
+  <div class="search-box">
+      <input type="text" placeholder="Search books.." name="search" >
+      <div class="result"></div>
+  </div>
+    </center>
+    </div>
+<hr>
+<br>
+<center>
+<div class="card">
+<img src="biog.png" alt="biog" style="width: 100px">    
+<h2>Biography </h2>
+<p class="title">It's a detailed description of a person's life.It involves more than just the basic facts that happened in author's life</p>
+<p><a href="biog.php"><button class="gbtn">GET BOOKS</button></a></p>    
+</div>
+
+<div class="card">
+<img src="tech.png" alt="biog" style="width: 100px">    
+<h2>Technical-related </h2>
+<p class="title">It involves the information and data collected by our Scholars in Technical world.</p>
+<p><a href="tech.php"><button class="gbtn">GET BOOKS</button></a></p>    
+</div>
+<div class="card">
+<img src="engg.png" alt="biog" style="width: 100px">    
+<h2>Engineering </h2>
+<p class="title">It consist books of different streams,i.e Computer,Mechanical,Electrical,Civil</p>
+<p><a href="engg.php"><button class="gbtn">GET BOOKS</button></a></p>    
+</div>
+
+<div class="card">
+<img src="cmc.png" alt="biog" style="width: 100px">    
+<h2>Comic </h2>
+<p class="title">It is a publication that consists of comics art in the form of sequential juxtaposed panels that represent individual scenes.</p>
+<p><a href="comic.php"><button class="gbtn">GET BOOKS</button></a></p>    
+</div>
+</center>
+<center>
+<div class="card"><br>
+<img src="phil.png" alt="biog" style="width: 100px">    
+<h2>Philosophy</h2>
+<p class="title">The book which can guide you to the study of general and fundamental problem solving about existence, knowledge, values, reason</p>
+<p><a href="phil.php"><button class="gbtn">GET BOOKS</button></a></p>    
+</div>
+
+<div class="card">
+<img src="sc-sci.png" alt="biog" style="width: 100px">    
+<h2>Social Science</h2>
+<p class="title">Social science is commonly used as an umbrella term to refer to a plurality of fields outside of the natural sciences. These includes some fields like archaeology, criminology, economics,political science,etc.</p>
+<p><a href="ssci.php"><button class="gbtn">GET BOOKS</button></a></p>    
+</div>
+
+<div class="card">
+<img src="sci.png" alt="biog" style="width: 100px">    
+<h2>Science </h2>
+<p class="title">It is a work of nonfiction, usually written by a scientist or researcher which are usually written for a wide audience presumed to have a general education rather than a specifically scientific training.</p>
+<p><a href="sci.php"><button class="gbtn">GET BOOKS</button></a></p>    
+</div>
+
+<div class="card">
+<img src="lit.png" alt="biog" style="width: 100px">    
+<h2>Literatue </h2>
+<p class="title">Literatue are more commonly and narrowly refers to writings specifically considered to be an art form, especially prose fiction, drama, and poetry.</p>
+<p><a href="lit.php"><button class="gbtn">GET BOOKS</button></a></p>    
+</div>
+    
+</center>
+
+
+<div class="foo">
+<ul class="dot">
+<li><h2> <a href="abt_us.html">About</a></h2></li>
+<li><h2><a href="contact.html">Contact</a></h2></li>
+</ul>
+<center>
+<a style="color: white" href="#" class="fa fa-facebook"></a>
+<a style="color: white" href="#" class="fa fa-twitter"></a>
+<a style="color: white" href="#" class="fa fa-google"></a>
+<a style="color: white" href="#" class="fa fa-linkedin"></a>
+<a style="color: white" href="#" class="fa fa-youtube"></a>
+</center>
+</div>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $('.search-box input[type="text"]').on("keyup input", function(){
+        /* Get input value on change */
+        var inputVal = $(this).val();
+        var resultDropdown = $(this).siblings(".result");
+        if(inputVal.length){
+            $.get("request.php", {term: inputVal}).done(function(data){
+                // Display the returned data in browser
+                resultDropdown.html(data);
+            });
+        } else{
+            resultDropdown.empty();
+        }
+    });
+    
+    // Set search input value on click of result item
+    $(document).on("click", ".result p", function(){
+        $(this).parents(".search-box").find('input[type="text"]').val($(this).text());
+        $(this).parent(".result").empty();
+    });
+});
+</script>
+</body>
+    
+</html>
